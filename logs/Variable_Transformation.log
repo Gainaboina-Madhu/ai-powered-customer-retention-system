@@ -1,0 +1,16 @@
+2026-04-06 10:59:36,781 - INFO - ===================  Variable Transformation  =============================
+2026-04-06 10:59:36,781 - INFO - Before apply Train numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_rep'], dtype='object') : (5634, 4)
+2026-04-06 10:59:36,781 - INFO - Before apply Test numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_rep'], dtype='object') : (1409, 4)
+2026-04-06 10:59:36,786 - INFO -  lambda value for tenure column is 0.44350450152493975
+2026-04-06 10:59:36,792 - INFO -  lambda value for MonthlyCharges column is 0.9320718144491791
+2026-04-06 10:59:36,799 - INFO -  lambda value for TotalCharges_rep column is 0.25585163759575524
+2026-04-06 10:59:36,800 - INFO - After apply Train numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure_yeo', 'MonthlyCharges_box',
+       'TotalCharges_rep_yeo'],
+      dtype='object') : (5634, 4)
+2026-04-06 10:59:36,800 - INFO - After apply Test numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure_yeo', 'MonthlyCharges_box',
+       'TotalCharges_rep_yeo'],
+      dtype='object') : (1409, 4)

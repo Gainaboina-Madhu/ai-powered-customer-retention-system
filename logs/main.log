@@ -1,0 +1,326 @@
+2026-04-06 10:59:36,586 - INFO -       customerID  gender  SeniorCitizen Partner Dependents  tenure  ...        Contract PaperlessBilling              PaymentMethod MonthlyCharges TotalCharges Churn
+0     7590-VHVEG  Female              0     Yes         No       1  ...  Month-to-month              Yes           Electronic check          29.85        29.85    No
+1     5575-GNVDE    Male              0      No         No      34  ...        One year               No               Mailed check          56.95       1889.5    No
+2     3668-QPYBK    Male              0      No         No       2  ...  Month-to-month              Yes               Mailed check          53.85       108.15   Yes
+3     7795-CFOCW    Male              0      No         No      45  ...        One year               No  Bank transfer (automatic)          42.30      1840.75    No
+4     9237-HQITU  Female              0      No         No       2  ...  Month-to-month              Yes           Electronic check          70.70       151.65   Yes
+...          ...     ...            ...     ...        ...     ...  ...             ...              ...                        ...            ...          ...   ...
+7038  6840-RESVB    Male              0     Yes        Yes      24  ...        One year              Yes               Mailed check          84.80       1990.5    No
+7039  2234-XADUH  Female              0     Yes        Yes      72  ...        One year              Yes    Credit card (automatic)         103.20       7362.9    No
+7040  4801-JZAZL  Female              0     Yes        Yes      11  ...  Month-to-month              Yes           Electronic check          29.60       346.45    No
+7041  8361-LTMKD    Male              1     Yes         No       4  ...  Month-to-month              Yes               Mailed check          74.40        306.6   Yes
+7042  3186-AJIEK    Male              0      No         No      66  ...        Two year              Yes  Bank transfer (automatic)         105.65       6844.5    No
+
+[7043 rows x 21 columns]
+2026-04-06 10:59:36,613 - INFO - None
+2026-04-06 10:59:36,613 - INFO - Before Updated dataset Size is: (7043, 21)
+2026-04-06 10:59:36,703 - INFO - After updated file is       customerID  gender  SeniorCitizen Partner Dependents  tenure  ... PaperlessBilling              PaymentMethod MonthlyCharges TotalCharges Churn           Sim
+0     7590-VHVEG  Female              0     Yes         No       1  ...              Yes           Electronic check          29.85        29.85    No  Reliance Jio
+1     5575-GNVDE    Male              0      No         No      34  ...               No               Mailed check          56.95       1889.5    No        Airtel
+2     3668-QPYBK    Male              0      No         No       2  ...              Yes               Mailed check          53.85       108.15   Yes        Airtel
+3     7795-CFOCW    Male              0      No         No      45  ...               No  Bank transfer (automatic)          42.30      1840.75    No       Vi-idea
+4     9237-HQITU  Female              0      No         No       2  ...              Yes           Electronic check          70.70       151.65   Yes  Reliance Jio
+...          ...     ...            ...     ...        ...     ...  ...              ...                        ...            ...          ...   ...           ...
+7038  6840-RESVB    Male              0     Yes        Yes      24  ...              Yes               Mailed check          84.80       1990.5    No        Airtel
+7039  2234-XADUH  Female              0     Yes        Yes      72  ...              Yes    Credit card (automatic)         103.20       7362.9    No          BSNL
+7040  4801-JZAZL  Female              0     Yes        Yes      11  ...              Yes           Electronic check          29.60       346.45    No  Reliance Jio
+7041  8361-LTMKD    Male              1     Yes         No       4  ...              Yes               Mailed check          74.40        306.6   Yes        Airtel
+7042  3186-AJIEK    Male              0      No         No      66  ...              Yes  Bank transfer (automatic)         105.65       6844.5    No       Vi-idea
+
+[7043 rows x 22 columns]
+2026-04-06 10:59:36,703 - INFO - After updated dataset Size is: (7043, 22)
+2026-04-06 10:59:36,703 - INFO - After updated dataset Size is: Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Churn', 'Sim'],
+      dtype='object')
+2026-04-06 10:59:36,703 - INFO - Checking for null values
+2026-04-06 10:59:36,704 - INFO - customerID -> 0
+2026-04-06 10:59:36,704 - INFO - gender -> 0
+2026-04-06 10:59:36,704 - INFO - SeniorCitizen -> 0
+2026-04-06 10:59:36,706 - INFO - Partner -> 0
+2026-04-06 10:59:36,707 - INFO - Dependents -> 0
+2026-04-06 10:59:36,708 - INFO - tenure -> 0
+2026-04-06 10:59:36,708 - INFO - PhoneService -> 0
+2026-04-06 10:59:36,708 - INFO - MultipleLines -> 0
+2026-04-06 10:59:36,708 - INFO - InternetService -> 0
+2026-04-06 10:59:36,709 - INFO - OnlineSecurity -> 0
+2026-04-06 10:59:36,709 - INFO - OnlineBackup -> 0
+2026-04-06 10:59:36,710 - INFO - DeviceProtection -> 0
+2026-04-06 10:59:36,710 - INFO - TechSupport -> 0
+2026-04-06 10:59:36,711 - INFO - StreamingTV -> 0
+2026-04-06 10:59:36,711 - INFO - StreamingMovies -> 0
+2026-04-06 10:59:36,711 - INFO - Contract -> 0
+2026-04-06 10:59:36,712 - INFO - PaperlessBilling -> 0
+2026-04-06 10:59:36,712 - INFO - PaymentMethod -> 0
+2026-04-06 10:59:36,712 - INFO - MonthlyCharges -> 0
+2026-04-06 10:59:36,713 - INFO - TotalCharges -> 0
+2026-04-06 10:59:36,713 - INFO - Churn -> 0
+2026-04-06 10:59:36,714 - INFO - Sim -> 0
+2026-04-06 10:59:36,714 - INFO - ===================== converting the object type into float ============================
+2026-04-06 10:59:36,726 - INFO - None
+2026-04-06 10:59:36,727 - INFO - customerID -> 0
+2026-04-06 10:59:36,728 - INFO - gender -> 0
+2026-04-06 10:59:36,728 - INFO - SeniorCitizen -> 0
+2026-04-06 10:59:36,728 - INFO - Partner -> 0
+2026-04-06 10:59:36,728 - INFO - Dependents -> 0
+2026-04-06 10:59:36,729 - INFO - tenure -> 0
+2026-04-06 10:59:36,729 - INFO - PhoneService -> 0
+2026-04-06 10:59:36,729 - INFO - MultipleLines -> 0
+2026-04-06 10:59:36,730 - INFO - InternetService -> 0
+2026-04-06 10:59:36,730 - INFO - OnlineSecurity -> 0
+2026-04-06 10:59:36,730 - INFO - OnlineBackup -> 0
+2026-04-06 10:59:36,731 - INFO - DeviceProtection -> 0
+2026-04-06 10:59:36,731 - INFO - TechSupport -> 0
+2026-04-06 10:59:36,731 - INFO - StreamingTV -> 0
+2026-04-06 10:59:36,732 - INFO - StreamingMovies -> 0
+2026-04-06 10:59:36,732 - INFO - Contract -> 0
+2026-04-06 10:59:36,732 - INFO - PaperlessBilling -> 0
+2026-04-06 10:59:36,733 - INFO - PaymentMethod -> 0
+2026-04-06 10:59:36,733 - INFO - MonthlyCharges -> 0
+2026-04-06 10:59:36,733 - INFO - TotalCharges -> 11
+2026-04-06 10:59:36,733 - INFO - Churn -> 0
+2026-04-06 10:59:36,734 - INFO - Sim -> 0
+2026-04-06 10:59:36,735 - INFO - checking the column names X : Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'TotalCharges', 'Sim'],
+      dtype='object')
+2026-04-06 10:59:36,735 - INFO - checking the shape of y : (7043,)
+2026-04-06 10:59:36,740 - INFO - Train data size (5634, 21) and (5634,)
+2026-04-06 10:59:36,740 - INFO - Test data size (1409, 21) and (1409,)
+2026-04-06 10:59:36,741 - INFO - 4922    1
+2512    1
+5816    1
+6418    1
+131     0
+       ..
+4703    0
+3616    1
+6012    0
+5763    1
+6558    0
+Name: Churn, Length: 5634, dtype: int32
+2026-04-06 10:59:36,742 - INFO - 5851    1
+843     1
+5442    1
+4792    0
+2303    0
+       ..
+459     1
+710     0
+1955    1
+5956    0
+2628    1
+Name: Churn, Length: 1409, dtype: int32
+2026-04-06 10:59:36,742 - INFO - ==================  Handling missing Values  =============================
+2026-04-06 10:59:36,747 - INFO - Before replacing Train null values : customerID           0
+gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+TotalCharges        11
+Sim                  0
+dtype: int64
+2026-04-06 10:59:36,748 - INFO - Before replacing Test null values : customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Sim                 0
+dtype: int64
+2026-04-06 10:59:36,775 - INFO - After replacing Train null values : customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+Sim                 0
+TotalCharges_rep    0
+dtype: int64
+2026-04-06 10:59:36,777 - INFO - After replacing Test null values : customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+Sim                 0
+TotalCharges_rep    0
+dtype: int64
+2026-04-06 10:59:36,777 - INFO - ================ Data Splitting =======================================
+2026-04-06 10:59:36,777 - INFO - Before splitting the Train columns Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'Sim', 'TotalCharges_rep'],
+      dtype='object')
+2026-04-06 10:59:36,777 - INFO - Before splitting the Test columns Index(['customerID', 'gender', 'SeniorCitizen', 'Partner', 'Dependents',
+       'tenure', 'PhoneService', 'MultipleLines', 'InternetService',
+       'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport',
+       'StreamingTV', 'StreamingMovies', 'Contract', 'PaperlessBilling',
+       'PaymentMethod', 'MonthlyCharges', 'Sim', 'TotalCharges_rep'],
+      dtype='object')
+2026-04-06 10:59:36,780 - INFO - After splitting the Train numerical columns Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_rep'], dtype='object') : 
+ (5634, 4)
+2026-04-06 10:59:36,780 - INFO - After splitting the Train categorical  columns Index(['customerID', 'gender', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'Sim'],
+      dtype='object') : 
+ (5634, 17)
+2026-04-06 10:59:36,781 - INFO - After splitting the Test numerical columns Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_rep'], dtype='object') : 
+ (1409, 4)
+2026-04-06 10:59:36,781 - INFO - After splitting the Test categorical  columns Index(['customerID', 'gender', 'Partner', 'Dependents', 'PhoneService',
+       'MultipleLines', 'InternetService', 'OnlineSecurity', 'OnlineBackup',
+       'DeviceProtection', 'TechSupport', 'StreamingTV', 'StreamingMovies',
+       'Contract', 'PaperlessBilling', 'PaymentMethod', 'Sim'],
+      dtype='object') : 
+ (1409, 17)
+2026-04-06 10:59:36,781 - INFO - Before apply Train numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_rep'], dtype='object') : (5634, 4)
+2026-04-06 10:59:36,781 - INFO - Before apply Test numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_rep'], dtype='object') : (1409, 4)
+2026-04-06 10:59:36,800 - INFO - After apply Train numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure_yeo', 'MonthlyCharges_box',
+       'TotalCharges_rep_yeo'],
+      dtype='object') : (5634, 4)
+2026-04-06 10:59:36,800 - INFO - After apply Test numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure_yeo', 'MonthlyCharges_box',
+       'TotalCharges_rep_yeo'],
+      dtype='object') : (1409, 4)
+2026-04-06 10:59:36,800 - INFO - Before apply Train numerical columns and shapes outlier 
+ : Index(['SeniorCitizen', 'tenure_yeo', 'MonthlyCharges_box',
+       'TotalCharges_rep_yeo'],
+      dtype='object') : (5634, 4)
+2026-04-06 10:59:36,800 - INFO - Before apply Test numerical columns and shapes oulier 
+ : Index(['SeniorCitizen', 'tenure_yeo', 'MonthlyCharges_box',
+       'TotalCharges_rep_yeo'],
+      dtype='object') : (1409, 4)
+2026-04-06 10:59:36,809 - INFO - After apply Train numerical columns and shapes outlier 
+ : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object') : (5634, 4)
+2026-04-06 10:59:36,809 - INFO - After apply Test numerical columns and shapes outlier 
+ : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object') : (1409, 4)
+2026-04-06 10:59:36,855 - INFO - Total Training Data is : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS', 'gender_Male', 'Partner_Yes',
+       'Dependents_Yes', 'PhoneService_ordinal', 'MultipleLines_ordinal',
+       'InternetService_ordinal', 'OnlineSecurity_ordinal',
+       'OnlineBackup_ordinal', 'DeviceProtection_ordinal',
+       'TechSupport_ordinal', 'StreamingTV_ordinal', 'StreamingMovies_ordinal',
+       'Contract_ordinal', 'PaperlessBilling_ordinal', 'PaymentMethod_ordinal',
+       'Sim_ordinal'],
+      dtype='object') 
+ and it shape : (5634, 20) 
+2026-04-06 10:59:36,855 - INFO - Total Testing Data is : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS', 'gender_Male', 'Partner_Yes',
+       'Dependents_Yes', 'PhoneService_ordinal', 'MultipleLines_ordinal',
+       'InternetService_ordinal', 'OnlineSecurity_ordinal',
+       'OnlineBackup_ordinal', 'DeviceProtection_ordinal',
+       'TechSupport_ordinal', 'StreamingTV_ordinal', 'StreamingMovies_ordinal',
+       'Contract_ordinal', 'PaperlessBilling_ordinal', 'PaymentMethod_ordinal',
+       'Sim_ordinal'],
+      dtype='object') 
+ and it shape : (1409, 20)
+2026-04-06 10:59:36,855 - INFO - ========================= Data Balancing ================================
+2026-04-06 10:59:36,855 - INFO - Before Data Balanced the Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS', 'gender_Male', 'Partner_Yes',
+       'Dependents_Yes', 'PhoneService_ordinal', 'MultipleLines_ordinal',
+       'InternetService_ordinal', 'OnlineSecurity_ordinal',
+       'OnlineBackup_ordinal', 'DeviceProtection_ordinal',
+       'TechSupport_ordinal', 'StreamingTV_ordinal', 'StreamingMovies_ordinal',
+       'Contract_ordinal', 'PaperlessBilling_ordinal', 'PaymentMethod_ordinal',
+       'Sim_ordinal'],
+      dtype='object') and it is shape (5634, 20)
+2026-04-06 10:59:36,925 - INFO - After balancing the data Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS', 'gender_Male', 'Partner_Yes',
+       'Dependents_Yes', 'PhoneService_ordinal', 'MultipleLines_ordinal',
+       'InternetService_ordinal', 'OnlineSecurity_ordinal',
+       'OnlineBackup_ordinal', 'DeviceProtection_ordinal',
+       'TechSupport_ordinal', 'StreamingTV_ordinal', 'StreamingMovies_ordinal',
+       'Contract_ordinal', 'PaperlessBilling_ordinal', 'PaymentMethod_ordinal',
+       'Sim_ordinal'],
+      dtype='object') and it is shape : (8236, 20)
+2026-04-06 10:59:36,925 - INFO -  After balancing the data (8236,)
+2026-04-06 10:59:36,925 - INFO -  Before applying the feature scaling Training data Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS', 'gender_Male', 'Partner_Yes',
+       'Dependents_Yes', 'PhoneService_ordinal', 'MultipleLines_ordinal',
+       'InternetService_ordinal', 'OnlineSecurity_ordinal',
+       'OnlineBackup_ordinal', 'DeviceProtection_ordinal',
+       'TechSupport_ordinal', 'StreamingTV_ordinal', 'StreamingMovies_ordinal',
+       'Contract_ordinal', 'PaperlessBilling_ordinal', 'PaymentMethod_ordinal',
+       'Sim_ordinal'],
+      dtype='object') and its shape (8236, 20)
+2026-04-06 10:59:36,948 - INFO -  Before applying the feature scaling Testing data       SeniorCitizen  tenure_yeo_tri  MonthlyCharges_box_CapMS  TotalCharges_rep_yeo_CapMS  ...  Contract_ordinal  PaperlessBilling_ordinal  PaymentMethod_ordinal  Sim_ordinal
+0                 1        8.794388                 85.992500                   28.375732  ...               1.0                       1.0                    0.0          3.0
+1                 0        5.013231                 25.939110                   14.137593  ...               0.0                       1.0                    0.0          3.0
+2                 0       11.806864                 21.283806                   21.476170  ...               2.0                       1.0                    1.0          1.0
+3                 1       12.202222                 82.685203                   33.716895  ...               1.0                       1.0                    2.0          2.0
+4                 0        1.415581                 39.132037                    8.570713  ...               0.0                       1.0                    2.0          2.0
+...             ...             ...                       ...                         ...  ...               ...                       ...                    ...          ...
+1404              0        0.811500                 59.759701                    7.931906  ...               0.0                       1.0                    2.0          2.0
+1405              0        0.811500                 16.882126                    4.561747  ...               0.0                       0.0                    3.0          0.0
+1406              0       10.527349                 74.759190                   29.936517  ...               0.0                       1.0                    0.0          3.0
+1407              0        8.232026                 70.718587                   25.896263  ...               0.0                       1.0                    2.0          2.0
+1408              0        0.811500                 65.921772                    8.249696  ...               0.0                       1.0                    3.0          0.0
+
+[1409 rows x 20 columns] and its shape (1409, 20) 

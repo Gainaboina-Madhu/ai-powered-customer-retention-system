@@ -1,0 +1,37 @@
+2026-04-06 10:59:36,949 - INFO -  Before applying the feature scaling Training data Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS', 'gender_Male', 'Partner_Yes',
+       'Dependents_Yes', 'PhoneService_ordinal', 'MultipleLines_ordinal',
+       'InternetService_ordinal', 'OnlineSecurity_ordinal',
+       'OnlineBackup_ordinal', 'DeviceProtection_ordinal',
+       'TechSupport_ordinal', 'StreamingTV_ordinal', 'StreamingMovies_ordinal',
+       'Contract_ordinal', 'PaperlessBilling_ordinal', 'PaymentMethod_ordinal',
+       'Sim_ordinal'],
+      dtype='object') and its shape (8236, 20)
+2026-04-06 10:59:36,969 - INFO -  Before applying the feature scaling Testing data       SeniorCitizen  tenure_yeo_tri  MonthlyCharges_box_CapMS  TotalCharges_rep_yeo_CapMS  ...  Contract_ordinal  PaperlessBilling_ordinal  PaymentMethod_ordinal  Sim_ordinal
+0                 1        8.794388                 85.992500                   28.375732  ...               1.0                       1.0                    0.0          3.0
+1                 0        5.013231                 25.939110                   14.137593  ...               0.0                       1.0                    0.0          3.0
+2                 0       11.806864                 21.283806                   21.476170  ...               2.0                       1.0                    1.0          1.0
+3                 1       12.202222                 82.685203                   33.716895  ...               1.0                       1.0                    2.0          2.0
+4                 0        1.415581                 39.132037                    8.570713  ...               0.0                       1.0                    2.0          2.0
+...             ...             ...                       ...                         ...  ...               ...                       ...                    ...          ...
+1404              0        0.811500                 59.759701                    7.931906  ...               0.0                       1.0                    2.0          2.0
+1405              0        0.811500                 16.882126                    4.561747  ...               0.0                       0.0                    3.0          0.0
+1406              0       10.527349                 74.759190                   29.936517  ...               0.0                       1.0                    0.0          3.0
+1407              0        8.232026                 70.718587                   25.896263  ...               0.0                       1.0                    2.0          2.0
+1408              0        0.811500                 65.921772                    8.249696  ...               0.0                       1.0                    3.0          0.0
+
+[1409 rows x 20 columns]
+2026-04-06 10:59:37,177 - INFO - confusion matrix : 
+ [[281  72]
+ [257 799]]
+2026-04-06 10:59:37,177 - INFO - Accuracy score : 0.7665010645848119
+2026-04-06 10:59:37,179 - INFO - Classification report : 
+               precision    recall  f1-score   support
+
+           0       0.52      0.80      0.63       353
+           1       0.92      0.76      0.83      1056
+
+    accuracy                           0.77      1409
+   macro avg       0.72      0.78      0.73      1409
+weighted avg       0.82      0.77      0.78      1409
+

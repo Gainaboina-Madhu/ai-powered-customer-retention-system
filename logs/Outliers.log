@@ -1,0 +1,17 @@
+2026-04-06 10:59:36,800 - INFO - ===================  Outliers  =============================
+2026-04-06 10:59:36,800 - INFO - Before apply Train numerical columns and shapes outlier 
+ : Index(['SeniorCitizen', 'tenure_yeo', 'MonthlyCharges_box',
+       'TotalCharges_rep_yeo'],
+      dtype='object') : (5634, 4)
+2026-04-06 10:59:36,801 - INFO - Before apply Test numerical columns and shapes oulier 
+ : Index(['SeniorCitizen', 'tenure_yeo', 'MonthlyCharges_box',
+       'TotalCharges_rep_yeo'],
+      dtype='object') : (1409, 4)
+2026-04-06 10:59:36,809 - INFO - After apply Train numerical columns and shapes outlier 
+ : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object') : (5634, 4)
+2026-04-06 10:59:36,809 - INFO - After apply Test numerical columns and shapes outlier 
+ : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object') : (1409, 4)

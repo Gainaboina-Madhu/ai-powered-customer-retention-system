@@ -1,0 +1,30 @@
+2026-04-06 10:59:36,809 - INFO - =================== Constant Technique =============================
+2026-04-06 10:59:36,809 - INFO - Before apply Train numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object') : (5634, 4)
+2026-04-06 10:59:36,810 - INFO - Before apply Test numerical columns and shapes variable Transformation 
+ : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object') : (1409, 4)
+2026-04-06 10:59:36,811 - INFO - Checking the Train Good Column 4 : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object')
+2026-04-06 10:59:36,811 - INFO - Checking the Train Bad Column 0 : Index([], dtype='object')
+2026-04-06 10:59:36,811 - INFO - Checking the Test Good Column 4 : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object')
+2026-04-06 10:59:36,811 - INFO - Checking the Test Bad Column 0 : Index([], dtype='object')
+2026-04-06 10:59:36,811 - INFO - =================== Quasi Constant Technique ================================
+2026-04-06 10:59:36,813 - INFO - Checking the Train Good Column 4 : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object')
+2026-04-06 10:59:36,813 - INFO - Checking the Train Bad Column 0 : Index([], dtype='object')
+2026-04-06 10:59:36,813 - INFO - Checking the Test Good Column 4 : Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS'],
+      dtype='object')
+2026-04-06 10:59:36,813 - INFO - Checking the Test Bad Column 0 : Index([], dtype='object')
+2026-04-06 10:59:36,813 - INFO - =================== Hypothesis Testing Technique =============================
+2026-04-06 10:59:36,813 - INFO - the X_train values (5634, 4)
+2026-04-06 10:59:36,813 - INFO - the y_train values (5634,)
+2026-04-06 10:59:36,814 - INFO - Checking the Good Columns: ['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS', 'TotalCharges_rep_yeo_CapMS']

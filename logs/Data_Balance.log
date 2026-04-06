@@ -1,0 +1,33 @@
+2026-04-06 10:59:36,856 - INFO - ====================== Applying the SMOTE (over sampling the data) =============================
+2026-04-06 10:59:36,856 - INFO - Total Training Data Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS', 'gender_Male', 'Partner_Yes',
+       'Dependents_Yes', 'PhoneService_ordinal', 'MultipleLines_ordinal',
+       'InternetService_ordinal', 'OnlineSecurity_ordinal',
+       'OnlineBackup_ordinal', 'DeviceProtection_ordinal',
+       'TechSupport_ordinal', 'StreamingTV_ordinal', 'StreamingMovies_ordinal',
+       'Contract_ordinal', 'PaperlessBilling_ordinal', 'PaymentMethod_ordinal',
+       'Sim_ordinal'],
+      dtype='object') and shape (5634, 20)
+2026-04-06 10:59:36,856 - INFO - Total Testing Data Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS', 'gender_Male', 'Partner_Yes',
+       'Dependents_Yes', 'PhoneService_ordinal', 'MultipleLines_ordinal',
+       'InternetService_ordinal', 'OnlineSecurity_ordinal',
+       'OnlineBackup_ordinal', 'DeviceProtection_ordinal',
+       'TechSupport_ordinal', 'StreamingTV_ordinal', 'StreamingMovies_ordinal',
+       'Contract_ordinal', 'PaperlessBilling_ordinal', 'PaymentMethod_ordinal',
+       'Sim_ordinal'],
+      dtype='object') and shape (1409, 20)
+2026-04-06 10:59:36,857 - INFO -  Checking how many are Good rows : 4118
+2026-04-06 10:59:36,857 - INFO -  Checking how many are Bad rows : 1516 
+2026-04-06 10:59:36,923 - INFO - Total Training Data Index(['SeniorCitizen', 'tenure_yeo_tri', 'MonthlyCharges_box_CapMS',
+       'TotalCharges_rep_yeo_CapMS', 'gender_Male', 'Partner_Yes',
+       'Dependents_Yes', 'PhoneService_ordinal', 'MultipleLines_ordinal',
+       'InternetService_ordinal', 'OnlineSecurity_ordinal',
+       'OnlineBackup_ordinal', 'DeviceProtection_ordinal',
+       'TechSupport_ordinal', 'StreamingTV_ordinal', 'StreamingMovies_ordinal',
+       'Contract_ordinal', 'PaperlessBilling_ordinal', 'PaymentMethod_ordinal',
+       'Sim_ordinal'],
+      dtype='object') and shape (8236, 20)
+2026-04-06 10:59:36,923 - INFO - Total Testing Data shape (8236,)
+2026-04-06 10:59:36,924 - INFO -  Checking how many are Good rows : 4118
+2026-04-06 10:59:36,924 - INFO -  Checking how many are Bad rows : 4118 
