@@ -93,11 +93,19 @@ The final model was integrated into a Flask-based web application that allows us
 
 # 🏗️ System Architecture
 
-<div align="center">
-
-<p align="center"> <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
-
-</div>
+User Input
+     ↓
+Flask Frontend
+     ↓
+Backend Processing
+     ↓
+Feature Engineering
+     ↓
+Feature Scaling
+     ↓
+Logistic Regression Model
+     ↓
+Prediction Output
 
 ---
 
