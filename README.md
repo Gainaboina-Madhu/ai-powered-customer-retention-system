@@ -199,7 +199,6 @@ Flask Deployment
 
 # 📈 Exploratory Data Analysis (EDA)
 
-The project includes detailed visual analysis to understand customer behavior and churn patterns.
 
 ## 📊 Visualizations Included
 
@@ -213,24 +212,6 @@ The project includes detailed visual analysis to understand customer behavior an
 * Distribution Plots
 
 ---
-
-## 📸 EDA Results
-
-<p align="center"> <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
-
-### Customer Churn Distribution
-
-![EDA1](images/churn_distribution.png)
-
-### Correlation Heatmap
-
-![EDA2](images/correlation_heatmap.png)
-
-### ROC Curve
-
-![EDA3](images/roc_curve.png)
-
-</div>
 
 ---
 
