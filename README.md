@@ -5,11 +5,10 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge\&logo=python)
-![Flask](https://img.shields.io/badge/Flask-Web_App-black?style=for-the-badge\&logo=flask)
+
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-orange?style=for-the-badge\&logo=scikit-learn)
 ![Logistic Regression](https://img.shields.io/badge/Model-Logistic_Regression-success?style=for-the-badge)
-![HTML](https://img.shields.io/badge/Frontend-HTML%20%7C%20CSS-purple?style=for-the-badge)
-![Dataset](https://img.shields.io/badge/Dataset-Telco_Customer_Churn-red?style=for-the-badge)
+
 
 </div>
 
@@ -23,7 +22,6 @@
 
 </div>
 
-<p align="center"> <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1400&auto=format&fit=crop" width="100%"> </p>
 
 ---
 
