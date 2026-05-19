@@ -377,8 +377,6 @@ Reason:
 
 # 🤖 Model Training
 
-<p align="center"> <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
-
 Multiple machine learning algorithms were trained and evaluated.
 
 ## 📌 Models Used
@@ -431,7 +429,6 @@ Hyperparameter tuning was performed using:
 
 # 📊 Model Performance
 
-<p align="center"> <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
 
 ## 📌 Performance Metrics
 
@@ -445,21 +442,8 @@ Hyperparameter tuning was performed using:
 
 ---
 
-# 📉 Confusion Matrix
-
-<div align="center">
-
-![Confusion Matrix](images/confusion_matrix.png)
-
-</div>
-
----
-
 # 🌐 Flask Web Application
 
-## 📸 Application Preview
-
-<p align="center"> <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
 
 ---
 
@@ -531,41 +515,25 @@ AI-Powered-Customer-Retention-Prediction-System/
 
 ## 1️⃣ Clone Repository
 
-```bash
-git clone https://github.com/your-username/AI-Powered-Customer-Retention-Prediction-System.git
-```
+ - git clone https://github.com/your-username/AI-Powered-Customer-Retention-Prediction-System.git
 
----
 
 ## 2️⃣ Navigate to Project Folder
 
-```bash
-cd AI-Powered-Customer-Retention-Prediction-System
-```
-
----
+ - cd AI-Powered-Customer-Retention-Prediction-System
 
 ## 3️⃣ Install Dependencies
 
-```bash
-pip install -r requirements.txt
-```
+ - pip install -r requirements.txt
 
----
 
 ## 4️⃣ Run Flask Application
 
-```bash
-python app.py
-```
-
----
+ - python app.py
 
 ## 5️⃣ Open Browser
 
-```bash
-http://127.0.0.1:5000
-```
+  - http://127.0.0.1:5000
 
 ---
 
@@ -621,13 +589,13 @@ This project helps organizations:
 
 # 👨‍💻 Author
 
-<div align="center">
+
 
 ## Gainaboina Madhu
 
 ### Machine Learning & Deep Learning Enthusiast
 
-</div>
+
 
 ---
 
