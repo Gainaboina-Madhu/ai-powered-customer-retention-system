@@ -513,25 +513,23 @@ AI-Powered-Customer-Retention-Prediction-System/
 
 # ⚡ Installation Guide
 
-## 1️⃣ Clone Repository
+# 1️⃣ Clone Repository
 
  - git clone https://github.com/your-username/AI-Powered-Customer-Retention-Prediction-System.git
 
-
-## 2️⃣ Navigate to Project Folder
+# 2️⃣ Navigate to Project Folder
 
  - cd AI-Powered-Customer-Retention-Prediction-System
 
-## 3️⃣ Install Dependencies
+# 3️⃣ Install Dependencies
 
  - pip install -r requirements.txt
 
-
-## 4️⃣ Run Flask Application
+# 4️⃣ Run Flask Application
 
  - python app.py
 
-## 5️⃣ Open Browser
+# 5️⃣ Open Browser
 
   - http://127.0.0.1:5000
 
