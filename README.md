@@ -63,12 +63,12 @@ The final model was integrated into a Flask-based web application that allows us
 
 # 🎯 Project Objectives
 
-✅ Predict customer churn accurately
-✅ Improve customer retention strategies
-✅ Reduce revenue loss
-✅ Help businesses identify high-risk customers
-✅ Build a real-world deployable AI system
-✅ Support data-driven business decisions
+ - ✅ Predict customer churn accurately
+ - ✅ Improve customer retention strategies
+ - ✅ Reduce revenue loss
+ - ✅ Help businesses identify high-risk customers
+ - ✅ Build a real-world deployable AI system
+ - ✅ Support data-driven business decisions
 
 ---
 
@@ -95,7 +95,7 @@ The final model was integrated into a Flask-based web application that allows us
 
 <div align="center">
 
-![Architecture](images/architecture.png)
+<p align="center"> <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
 
 </div>
 
