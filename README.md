@@ -93,19 +93,22 @@ The final model was integrated into a Flask-based web application that allows us
 
 # 🏗️ System Architecture
 
-User Input
-     ↓
-Flask Frontend
-     ↓
-Backend Processing
-     ↓
-Feature Engineering
-     ↓
-Feature Scaling
-     ↓
-Logistic Regression Model
-     ↓
-Prediction Output
+
+```text
+  User Input
+      ↓
+ Flask Frontend
+      ↓
+ Backend Processing
+      ↓
+ Feature Engineering
+      ↓
+ Feature Scaling
+      ↓
+ Logistic Regression Model
+      ↓
+ Prediction Output
+```
 
 ---
 
@@ -160,11 +163,7 @@ Prediction Output
 
 # 🔄 Complete Machine Learning Workflow
 
-<div align="center">
 
-![Workflow](images/workflow.png)
-
-</div>
 
 ```text
 Dataset Collection
@@ -217,7 +216,7 @@ The project includes detailed visual analysis to understand customer behavior an
 
 ## 📸 EDA Results
 
-<div align="center">
+<p align="center"> <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
 
 ### Customer Churn Distribution
 
@@ -397,6 +396,8 @@ Reason:
 
 # 🤖 Model Training
 
+<p align="center"> <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
+
 Multiple machine learning algorithms were trained and evaluated.
 
 ## 📌 Models Used
@@ -449,11 +450,7 @@ Hyperparameter tuning was performed using:
 
 # 📊 Model Performance
 
-<div align="center">
-
-![Performance](images/model_performance.png)
-
-</div>
+<p align="center"> <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
 
 ## 📌 Performance Metrics
 
@@ -481,11 +478,7 @@ Hyperparameter tuning was performed using:
 
 ## 📸 Application Preview
 
-<div align="center">
-
-![Frontend](images/frontend.png)
-
-</div>
+<p align="center"> <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" width="90%"> </p>
 
 ---
 
