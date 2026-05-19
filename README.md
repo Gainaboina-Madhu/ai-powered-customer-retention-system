@@ -445,7 +445,7 @@ Hyperparameter tuning was performed using:
 # 🌐 Flask Web Application
 
 
----
+
 
 # 💻 Frontend
 
@@ -457,11 +457,13 @@ The frontend was developed using:
 
 ## Features
 
+```text
 ✅ User-friendly interface
 ✅ Real-time prediction
 ✅ Probability display
 ✅ Interactive forms
 ✅ Responsive design
+```
 
 ---
 
@@ -563,11 +565,13 @@ AI-Powered-Customer-Retention-Prediction-System/
 
 This project helps organizations:
 
+```text
 ✅ Reduce customer churn
 ✅ Improve customer retention
 ✅ Increase profitability
 ✅ Enable proactive business strategies
 ✅ Improve customer satisfaction
+```
 
 ---
 
@@ -587,13 +591,7 @@ This project helps organizations:
 
 # 👨‍💻 Author
 
-
-
 ## Gainaboina Madhu
-
-### Machine Learning & Deep Learning Enthusiast
-
-
 
 ---
 
