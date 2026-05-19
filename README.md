@@ -12,25 +12,26 @@
 
 </div>
 
----
 
-<div align="center">
-
-
-## Predict customer churn using Machine Learning, SMOTE balancing, Feature Engineering, Hyperparameter Tuning, and Flask Deployment.
-
-</div>
-
-
----
 
 # 📸 Project Preview
+The AI-Powered Customer Retention Prediction System is an advanced machine learning project developed to predict customer churn using telecom customer behavioral and service usage data.
 
-<div align="center">
+Customer churn is one of the major challenges faced by industries such as telecommunications, banking, insurance, and e-commerce. Losing existing customers directly impacts revenue, customer acquisition costs, and long-term business growth.
 
-![Banner](images/banner.png)
+This project applies end-to-end machine learning techniques including:
 
-</div>
+Data preprocessing
+Missing value handling
+Feature engineering
+Outlier handling
+Feature scaling
+Data balancing using SMOTE
+Model training
+Hyperparameter tuning
+Real-time deployment using Flask
+
+The final system predicts whether a customer is likely to churn and provides probability-based retention insights through a user-friendly web application.
 
 ---
 
