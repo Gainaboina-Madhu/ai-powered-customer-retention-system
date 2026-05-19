@@ -16,9 +16,8 @@
 
 <div align="center">
 
-## 📌 Intelligent Machine Learning System for Customer Churn Prediction & Retention Analytics
 
-### Predict customer churn using Machine Learning, SMOTE balancing, Feature Engineering, Hyperparameter Tuning, and Flask Deployment.
+## Predict customer churn using Machine Learning, SMOTE balancing, Feature Engineering, Hyperparameter Tuning, and Flask Deployment.
 
 </div>
 
